@@ -1,14 +1,16 @@
 {
   "name": "approve-ci",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "build": "tsc"
   },
   "bin": {
-    "approve-ci":"index.js"
+    "approve-ci": "dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,8 @@
   },
   "dependencies": {
     "octokit": "^1.7.1",
-    "simple-git": "^3.7.1"
+    "shebang-loader": "^0.0.1",
+    "simple-git": "^3.7.1",
+    "ts-node": "^10.8.0"
   }
 }
