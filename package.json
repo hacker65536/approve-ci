@@ -6,14 +6,16 @@
   "scripts": {
     "test": "jest",
     "build": "tsc"
-
+  },
+  "bin": {
+    "approve-ci":"index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hacker65536/approve-ci.git"
   },
   "author": "hacker65536",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hacker65536/approve-ci/issues"
   },
